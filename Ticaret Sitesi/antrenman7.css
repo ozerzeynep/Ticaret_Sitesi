@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e9f6ca;
+}
+.soru{
+    width: 650px;
+    height: 50px;
+    background-color: #c1de7d;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.soru h6{
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+}
+.soru i{
+    float: right;
+    margin-top: 8px;
+    margin-right: 25px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+.kart_bir{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #c1de7d;
+    margin-top: 45px;
+    margin-left: 65px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.kart_bir img{
+    width: 240px;
+    margin-top: 15px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.kart_bir .bolum{
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.kart_bir .bolum h3{
+    text-align: center;
+    color: #81a825;
+}
+.kart_iki{
+    width: 300px;
+    height: 200px;
+    background-color: #c1de7d;
+    position: relative;
+    margin-top: -200px;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 800px;
+}
+.kart_iki img{
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.kart_iki .bolum_iki{
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 13px;
+}
+.kart_iki .bolum_iki h3{
+    text-align: center;
+    color: #81a825;
+}
+.kart_uc{
+    width: 300px;
+    height: 200px;
+    background-color: #c1de7d;
+    position: relative;
+    margin-top: -200px;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 430px;
+}
+.kart_uc img{
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.kart_uc .bolum_uc{
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 34px;
+}
+.kart_uc .bolum_uc h3{
+    text-align: center;
+    color: #81a825;
+}
+.kart_dort{
+    width: 300px;
+    height: 200px;
+    background-color: #c1de7d;
+    position: relative;
+    margin-top: -200px;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 70px;
+}
+.kart_dort img{
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.kart_dort .bolum_dort{
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 25px;
+}
+.kart_dort .bolum_dort h3{
+    text-align: center;
+    color: #81a825;
+}
+.kis_sezonu{
+    margin-top: 105px;
+    margin-left: 65px;
+    width: 600px;
+    height: 250px;
+    background: url(/projeler/kışsezonu.png);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kis_sezonu .sezon{
+    width: 300px;
+    height: 250px;
+    background-color: #d9f0a3;
+    float: right;
+    opacity: 0.7;
+}
+.kis_sezonu .sezon h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    color: #516e0b;
+    margin-top: 90px;
+}
+.kis_sezonu:hover{
+    width: 600px;
+    height: 250px;
+    background-color: #2c3614;
+    opacity: 0.8;
+    cursor: pointer;
+    transform:translate(30px,10px);
+}
+.yaz_sezonu{
+    margin-top: -255px;
+    width: 600px;
+    height: 250px;
+    float: right;
+    background: url(/projeler/yazsezonu.png);
+    margin-right: 65px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s;
+}
+.yaz_sezonu .sezon_iki{
+    width: 300px;
+    height: 250px;
+    background-color: #d9f0a3;
+    float: right;
+    opacity: 0.7;
+}
+.yaz_sezonu .sezon_iki h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    color: #516e0b;
+    margin-top: 90px;
+}
+.yaz_sezonu:hover{
+    width: 600px;
+    height: 250px;
+    background-color: #2c3614;
+    opacity: 0.8;
+    cursor: pointer;
+    transform:translate(10px,30px);
+}
+.kozmetik{
+    margin-top: 90px;
+    width: 600px;
+    height: 250px;
+    margin-left: 65px;
+    background: url(/projeler/bakım.png);
+    margin-bottom: 25px;
+    background-position : center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s;
+}
+.kozmetik .kozmo{
+    width: 300px;
+    height: 250px;
+    background-color: #d9f0a3;
+    float: right;
+    opacity: 0.7;
+}
+.kozmetik .kozmo h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    color: #516e0b;
+    margin-top: 90px;
+}
+.kozmetik:hover{
+    width: 600px;
+    height: 250px;
+    background-color: #2c3614;
+    opacity: 0.8;
+    cursor: pointer;
+    transform:translate(10px,30px);
+}
+.teknoloji{
+    margin-top: -275px;
+    float: right;
+    width: 600px;
+    height: 250px;
+    margin-right: 65px;
+    background: url(/projeler/teknoloji.jpg);
+    margin-bottom: 25px;
+    background-position : center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s; 
+}
+.teknoloji .tekno{
+    width: 300px;
+    height: 250px;
+    background-color: #d9f0a3;
+    float: right;
+    opacity: 0.7;
+}
+.teknoloji .tekno h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    color: #516e0b;
+    margin-top: 90px;
+}
+.teknoloji:hover{
+    width: 600px;
+    height: 250px;
+    background-color: #2c3614;
+    opacity: 0.8;
+    cursor: pointer;
+    transform:translate(10px,30px);
+}
+@media screen and (max-width:700px){
+    .soru{
+        width: 350px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .soru h6{
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+    .soru i{
+        font-size: 15px;
+    }
+    .cont{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .kart_bir{
+        margin-top: 45px;
+    }
+    .kart_iki{
+        margin-top: 75px;
+        margin-left: 65px
+    }
+    .kart_uc{
+        margin-top: 95px;
+        margin-left: 65px
+    }
+    .kart_dort{
+        margin-top: 135px;
+        margin-left: 65px
+    }
+    .sezonlar{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .kis_sezonu{
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+    }
+    .kis_sezonu .sezon{
+        width: 100px;
+        height: 250px;
+        text-align: center;    
+    }
+    .yaz_sezonu{
+        margin-top: 80px;
+        width: 200px;
+        height: 100px;
+    }
+    .kozmetik{
+        margin-top: 80px;
+        width: 200px;
+        height: 100px;
+    }
+    .teknoloji{
+        margin-top: 80px;
+        width: 200px;
+        height: 100px;
+    }
+}
